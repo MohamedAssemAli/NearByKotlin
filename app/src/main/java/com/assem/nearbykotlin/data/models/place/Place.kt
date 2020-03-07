@@ -1,9 +1,9 @@
-package com.assem.nearbykotlin.data.models.Place
+package com.assem.nearbykotlin.data.models.place
 
 
 import com.google.gson.annotations.SerializedName
 
-data class PlaceResponse(
+data class Place(
     @SerializedName("groups")
     val groups: List<Group>
 )

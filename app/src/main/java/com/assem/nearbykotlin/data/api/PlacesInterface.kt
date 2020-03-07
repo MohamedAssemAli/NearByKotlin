@@ -1,6 +1,7 @@
 package com.assem.nearbykotlin.data.api
 
-import com.assem.nearbykotlin.data.models.Place.PlaceResponse
+import com.assem.nearbykotlin.data.models.place.Place
+import com.assem.nearbykotlin.data.models.place.PlaceResponse
 import com.assem.nearbykotlin.utils.Constants
 import io.reactivex.Single
 import retrofit2.http.GET
@@ -8,7 +9,7 @@ import retrofit2.http.Query
 
 interface PlacesInterface {
 
-    @GET(Constants.EXPLORE_END_POINT)
+    @GET("venues/explore")
     fun getPlaces(
         @Query(Constants.CLIENT_ID) clientId: String,
         @Query(Constants.CLIENT_SECRET) clientSecret: String,

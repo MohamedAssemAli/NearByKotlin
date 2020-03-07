@@ -28,7 +28,7 @@ dependencies {
     def retrofitVersion = "2.6.2"
     def rxjava_version = '2.2.7'
     def rxandroid_version = '2.1.1'
-    def lifecycle_version = "2.1.0"
+    def lifecycle_version = "2.2.0"
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
@@ -66,6 +66,9 @@ dependencies {
     // ViewModel and LiveData
     // noinspection GradleDependency
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
+    implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+    //multidisk
+    implementation 'com.android.support:multidex:1.0.3'
     // playServicesLocation
     implementation 'com.google.android.gms:play-services-location:17.0.0'
     // AndroidUtilCode

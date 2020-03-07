@@ -3,6 +3,7 @@ package com.assem.nearbykotlin.ui
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.assem.nearbykotlin.R
+import com.assem.nearbykotlin.utils.Constants
 
 class MainActivity : AppCompatActivity() {
 

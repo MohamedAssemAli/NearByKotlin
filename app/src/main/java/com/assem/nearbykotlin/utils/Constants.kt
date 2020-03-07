@@ -29,7 +29,7 @@ class Constants {
 
     // END_POINTS
 // Explore end point
-/*
+    /*
      https://api.foursquare.com/v2/venues/explore?
      ll=29.978391,30.954928
      &client_id=WIYK400JVZ2MZ2UASKFQFKBRXYNBQZMVIKFHW1ZME43FGSG0
@@ -38,15 +38,16 @@ class Constants {
      &radius=500
      */
 // Photos end point
-/*
+    /*
     https://api.foursquare.com/v2/venues/{venue_id}/photos?
     client_id=WIYK400JVZ2MZ2UASKFQFKBRXYNBQZMVIKFHW1ZME43FGSG0
     &client_secret=PKGEAAH4M25CDNU1HSTVCE5U3T5GQIQISZEVG0CVQ5HY22CB
     &v=20200215
 
      */
-// photo url
-/*
+
+    // photo url
+    /*
     https://fastly.4sqi.net/img/general/720x540/3871084_dyOWRHNigS0wzBIyA9H91CuoO8JAkmjTCoyU8EFLw4U.jpg
      */
     companion object {

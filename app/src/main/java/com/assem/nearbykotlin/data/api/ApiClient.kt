@@ -22,19 +22,23 @@ object ApiClient {
     lateinit private var venuesInterface: VenuesInterface
     private var INSTANCE: com.assem.cognitev.nearby.Data.VenuesClient? = null
 
-    val okHttpClient = OkHttpClient.Builder()
+    private val okHttpClient = OkHttpClient.Builder()
         .connectTimeout(15, TimeUnit.SECONDS)
         .readTimeout(15, TimeUnit.SECONDS)
         .writeTimeout(15, TimeUnit.SECONDS)
         .addInterceptor(HttpLoggingInterceptor().setLevel(HttpLoggingInterceptor.Level.BODY))
         .build()
 
-    val retrofit: Retrofit = Retrofit.Builder()
+    private val retrofit: Retrofit = Retrofit.Builder()
         .baseUrl(Constants.BASE_URL)
         .client(okHttpClient)
         .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
         .addConverterFactory(GsonConverterFactory.create())
         .build()
+
+    fun <T> buildService(serviceType: Class<T>): T {
+        return retrofit.create(serviceType)
+    }
 
     fun getVenues(location: Location): Observable<Response<JsonObject?>?>? {
         return venuesInterface

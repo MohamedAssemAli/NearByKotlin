@@ -1,0 +1,771 @@
+    response: {
+    suggestedFilters: {
+    header: "Tap to show:",
+    filters: [
+    {
+    name: "Open now",
+    key: "openNow"
+    }
+    ]
+    },
+    headerLocation: "Current map view",
+    headerFullLocation: "Current map view",
+    headerLocationGranularity: "unknown",
+    totalResults: 13,
+    suggestedBounds: {
+    ne: {
+    lat: 29.982891004500004,
+    lng: 30.96011332707941
+    },
+    sw: {
+    lat: 29.973890995499993,
+    lng: 30.94974267292059
+    }
+    },
+    groups: [
+    {
+    type: "Recommended Places",
+    name: "recommended",
+    items: [
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "50ec5af8e4b0ef74a0955f91",
+    name: "Carrefour Express",
+    location: {
+    address: "Dolphin Mall",
+    crossStreet: "El Mehwar El Markazi Rd",
+    lat: 29.976812840743474,
+    lng: 30.95562432783702,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.976812840743474,
+    lng: 30.95562432783702
+    }
+    ],
+    distance: 188,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "Dolphin Mall (El Mehwar El Markazi Rd)",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4d954b0ea243a5684a65b473",
+    name: "Convenience Store",
+    pluralName: "Convenience Stores",
+    shortName: "Convenience Store",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/shops/conveniencestore_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-50ec5af8e4b0ef74a0955f91-0"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "55084193498eded0dc36c1e0",
+    name: "Family Mall",
+    location: {
+    address: "Central Spine",
+    crossStreet: "6 October University",
+    lat: 29.976609667571807,
+    lng: 30.95380783081055,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.976609667571807,
+    lng: 30.95380783081055
+    }
+    ],
+    distance: 225,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "Central Spine (6 October University)",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d1fd941735",
+    name: "Shopping Mall",
+    pluralName: "Shopping Malls",
+    shortName: "Mall",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-55084193498eded0dc36c1e0-1"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "4dd147fa7d8b975f1911f068",
+    name: "Spectra",
+    location: {
+    address: "Family Mall",
+    crossStreet: "El Mehwar El Markazi",
+    lat: 29.977068856808877,
+    lng: 30.95393224901323,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.977068856808877,
+    lng: 30.95393224901323
+    }
+    ],
+    distance: 175,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "Family Mall (El Mehwar El Markazi)",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d1c4941735",
+    name: "Restaurant",
+    pluralName: "Restaurants",
+    shortName: "Restaurant",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/default_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-4dd147fa7d8b975f1911f068-2"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "5058c174e4b0fd1b42e688c9",
+    name: "Dolphin Mall",
+    location: {
+    address: "Central Spine",
+    crossStreet: "6 October University",
+    lat: 29.977526191269863,
+    lng: 30.955114465503293,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.977526191269863,
+    lng: 30.955114465503293
+    }
+    ],
+    distance: 97,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "Central Spine (6 October University)",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d1fd941735",
+    name: "Shopping Mall",
+    pluralName: "Shopping Malls",
+    shortName: "Mall",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/shops/mall_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-5058c174e4b0fd1b42e688c9-3"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "55f6b245498e5835899eec3c",
+    name: "french bakery",
+    location: {
+    lat: 29.977399674439923,
+    lng: 30.95500801046064,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.977399674439923,
+    lng: 30.95500801046064
+    }
+    ],
+    distance: 110,
+    cc: "EG",
+    country: "Egypt",
+    formattedAddress: [
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d16a941735",
+    name: "Bakery",
+    pluralName: "Bakeries",
+    shortName: "Bakery",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/bakery_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-55f6b245498e5835899eec3c-4"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "535d6bd7498ee0d396c06f5f",
+    name: "My Queen (ماي كوين)",
+    location: {
+    address: "Family Mall",
+    crossStreet: "El Mehwar El Markazi",
+    lat: 29.977486251070754,
+    lng: 30.953467203359388,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.977486251070754,
+    lng: 30.953467203359388
+    }
+    ],
+    distance: 173,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "Family Mall (El Mehwar El Markazi)",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d16e941735",
+    name: "Fast Food Restaurant",
+    pluralName: "Fast Food Restaurants",
+    shortName: "Fast Food",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-535d6bd7498ee0d396c06f5f-5"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "576ae3da498e24af7769afe1",
+    name: "Cilantro",
+    location: {
+    address: "Family Mall",
+    crossStreet: "El Mehwar El Markazi",
+    lat: 29.976985972405434,
+    lng: 30.95352323305042,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.976985972405434,
+    lng: 30.95352323305042
+    }
+    ],
+    distance: 206,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "Family Mall (El Mehwar El Markazi)",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d16d941735",
+    name: "Café",
+    pluralName: "Cafés",
+    shortName: "Café",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-576ae3da498e24af7769afe1-6"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "5ae0c25959c4236ecfbc0a1b",
+    name: "Chicken Fil-A",
+    location: {
+    address: "Family Mall",
+    crossStreet: "El Mehwar El Markazi",
+    lat: 29.976334,
+    lng: 30.954272,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.976334,
+    lng: 30.954272
+    }
+    ],
+    distance: 237,
+    cc: "EG",
+    city: "6th Of October",
+    state: "6th Of October",
+    country: "Egypt",
+    formattedAddress: [
+    "Family Mall (El Mehwar El Markazi)",
+    "6th Of October",
+    "6th Of October",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d16e941735",
+    name: "Fast Food Restaurant",
+    pluralName: "Fast Food Restaurants",
+    shortName: "Fast Food",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-5ae0c25959c4236ecfbc0a1b-7"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "598f01cc9ad60e19c0a54e79",
+    name: "Allegro Cafe & Grill",
+    location: {
+    address: "Family Mall",
+    crossStreet: "El Mehwar El Markazi",
+    lat: 29.976159,
+    lng: 30.954175,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.976159,
+    lng: 30.954175
+    }
+    ],
+    distance: 258,
+    cc: "EG",
+    city: "6th Of October",
+    state: "6th Of October",
+    country: "Egypt",
+    formattedAddress: [
+    "Family Mall (El Mehwar El Markazi)",
+    "6th Of October",
+    "6th Of October",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d1c4941735",
+    name: "Restaurant",
+    pluralName: "Restaurants",
+    shortName: "Restaurant",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/default_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-598f01cc9ad60e19c0a54e79-8"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "50ef1be2e4b00a55d1f37ef4",
+    name: "3albal Cafe",
+    location: {
+    address: "1'st District - Block 2",
+    lat: 29.976065423216802,
+    lng: 30.952149352096054,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.976065423216802,
+    lng: 30.952149352096054
+    }
+    ],
+    distance: 372,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "1'st District - Block 2",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d16d941735",
+    name: "Café",
+    pluralName: "Cafés",
+    shortName: "Café",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-50ef1be2e4b00a55d1f37ef4-9"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "5984e4260d8a0f5900dced28",
+    name: "Fayrouz Cafe & Restaurant",
+    location: {
+    address: "1st District",
+    lat: 29.976135,
+    lng: 30.95208,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.976135,
+    lng: 30.95208
+    }
+    ],
+    distance: 372,
+    cc: "EG",
+    city: "6th October",
+    state: "Giza Governorate",
+    country: "Egypt",
+    formattedAddress: [
+    "1st District",
+    "6th October",
+    "Giza Governorate",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d16d941735",
+    name: "Café",
+    pluralName: "Cafés",
+    shortName: "Café",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-5984e4260d8a0f5900dced28-10"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "4eae838b93ad7677a9727661",
+    name: "6th Of October Exchange",
+    location: {
+    lat: 29.974624137326874,
+    lng: 30.95332712901894,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.974624137326874,
+    lng: 30.95332712901894
+    }
+    ],
+    distance: 446,
+    cc: "EG",
+    country: "Egypt",
+    formattedAddress: [
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "5744ccdfe4b0c0459246b4be",
+    name: "Currency Exchange",
+    pluralName: "Currency Exchanges",
+    shortName: "Currency Exchange",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/shops/financial_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-4eae838b93ad7677a9727661-11"
+    },
+    {
+    reasons: {
+    count: 0,
+    items: [
+    {
+    summary: "This spot is popular",
+    type: "general",
+    reasonName: "globalInteractionReason"
+    }
+    ]
+    },
+    venue: {
+    id: "4fcb94ade4b0c6650784ab17",
+    name: "Al Nady Sq (ميدان النادي)",
+    location: {
+    address: "Al Nady Sq",
+    lat: 29.980425476907573,
+    lng: 30.950351911943635,
+    labeledLatLngs: [
+    {
+    label: "display",
+    lat: 29.980425476907573,
+    lng: 30.950351911943635
+    }
+    ],
+    distance: 495,
+    cc: "EG",
+    city: "Madīnat as Sādis min Uktūbar",
+    state: "Muḩāfaz̧at al Jīzah",
+    country: "Egypt",
+    formattedAddress: [
+    "Al Nady Sq",
+    "Madīnat as Sādis min Uktūbar",
+    "Muḩāfaz̧at al Jīzah",
+    "Egypt"
+    ]
+    },
+    categories: [
+    {
+    id: "4bf58dd8d48988d164941735",
+    name: "Plaza",
+    pluralName: "Plazas",
+    shortName: "Plaza",
+    icon: {
+    prefix: "https://ss3.4sqi.net/img/categories_v2/parks_outdoors/plaza_",
+    suffix: ".png"
+    },
+    primary: true
+    }
+    ],
+    photos: {
+    count: 0,
+    groups: [ ]
+    }
+    },
+    referralId: "e-0-4fcb94ade4b0c6650784ab17-12"
+    }
+    ]
+    }
+    ]
+    }
+    

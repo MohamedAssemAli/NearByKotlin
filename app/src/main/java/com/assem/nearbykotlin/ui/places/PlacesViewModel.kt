@@ -36,10 +36,12 @@ class PlacesViewModel : ViewModel() {
                 Constants.RADIUS_VALUE,
                 getVersion()
             )
+            .map {
+                places.value = it.place.groups[0].items
+                Log.d("hahaha", "" + places.value!!.get(0).venue.name + "\n")
+            }
             .subscribeOn(Schedulers.io())
             .observeOn(AndroidSchedulers.mainThread())
-            .toObservable()
-            .map { Log.d("hahaha", "" + it.place.groups[0].items + "\n") }
     }
 
     fun getPhotos(venueId: String) {
